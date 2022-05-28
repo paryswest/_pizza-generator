@@ -87,24 +87,24 @@ function generateIngredients(ingredientNum) {
       wildcardIngredient: ['Pineapples', 'Anchovies', 'Olives'],
     };
     
-    // for (ingredient in objToJson){
-    //   ingredientArr.push(ingredient[oneToThree])
-    // }
     let ingredientArrVeg = []
     let ingredientArrMeat = []
+    let ingredientArrWildcard = []
     for(i=0;i<ingredientNum;i++){
 
       let oneToThree = Math.floor(Math.random()*3) // generates random number 0,1,2
       
       let ingredientVeg = objToJson.veggies[oneToThree]
       let ingredientMeat = objToJson.meat[oneToThree]
-
+      let ingredientWildcard = objToJson.wildcardIngredient[oneToThree]
       ingredientArrVeg.push(ingredientVeg)
       ingredientArrMeat.push(ingredientMeat)
+      ingredientArrWildcard.push(ingredientWildcard)
 
     }
     newIngredientObj.veggies = ingredientArrVeg
     newIngredientObj.meat = ingredientArrMeat
+    newIngredientObj.wildcardIngredient = ingredientArrWildcard
     //let newObjToJson = 
     return newIngredientObj
   }
