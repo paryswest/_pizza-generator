@@ -9,4 +9,5 @@ async function makeReq(){
   console.log(data);
   document.querySelector("#ingredientOne").textContent = data.veggies
   document.querySelector("#ingredientTwo").textContent = data.meat
+  document.querySelector("#ingredientThree").textContent = data.wildcardIngredient
 }
