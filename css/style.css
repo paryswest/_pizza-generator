@@ -12,3 +12,7 @@ h1{
 h2{
   color: navy
 }
+
+li{
+  list-style-type: none;
+}
