@@ -55,6 +55,13 @@ const server = http.createServer((req, res) => {
       res.write(data);
       res.end();
     });
+  }else if (page == '/images/pizzaoven.jpg') {
+      fs.readFile('images/pizzaoven.jpg', function (err, data) {
+        // This actually fixed our css problem 
+        res.writeHead(200, { 'Content-Type': 'image/jpg' });
+        res.write(data);
+        res.end();
+      });
   } else if (page == '/js/main.js') {
     fs.readFile('js/main.js', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/javascript' });
@@ -92,7 +99,7 @@ function generateIngredients(ingredientNum) {
     let ingredientArrWildcard = []
     for(i=0;i<ingredientNum;i++){
 
-      let oneToThree = Math.floor(Math.random()*3) // generates random number 0,1,2
+      let oneToThree = Math.floor(Math.random()*8) // generates random number 0,1,2
       
       let ingredientVeg = objToJson.veggies[oneToThree]
       let ingredientMeat = objToJson.meat[oneToThree]
