@@ -50,8 +50,8 @@ const server = http.createServer((req, res) => {
   } //else if
   else if (page == '/css/style.css') {
     fs.readFile('css/style.css', function (err, data) {
-      // can this fix our css error?? /julien
-      // res.writeHead(200, { 'Content-Type': 'text/css' });
+      // This actually fixed our css problem 
+      res.writeHead(200, { 'Content-Type': 'text/css' });
       res.write(data);
       res.end();
     });
