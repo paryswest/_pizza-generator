@@ -1,3 +1,10 @@
+body{
+  font-family: 'Questrial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  /* I can't seem to get the background image going; maybe there are better ideas than this */
+  background: url(images/pizzaoven.jpg) no-repeat center center fixed;
+}
+
 h1{
   color: red;
 }
