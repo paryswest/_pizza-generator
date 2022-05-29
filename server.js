@@ -82,9 +82,9 @@ function generateIngredients(ingredientNum) {
   const newIngredientObj = {}
   if(ingredientNum > 0){
     const objToJson = {
-      veggies: ['Mushrooms', 'Spinach', 'Onions', 'Olives'],
-      meat: ['Pepperoni', 'Mystery Meat', 'Chicken'],
-      wildcardIngredient: ['Pineapples', 'Anchovies', 'Olives'],
+      veggies: ['Mushrooms', 'Spinach', 'Onions', 'Olives', 'Banana Peppers', 'Mushrooms', 'Green Peppers', 'Asparagus'],
+      meat: ['Pepperoni', 'Mystery Meat', 'Chicken', 'Ham', 'Beef', 'Salami', 'Bacon', 'Turkey Bacon'],
+      wildcardIngredient: ['Pineapples', 'Anchovies', 'Olives', 'Cheddar Cheese', 'Feta Cheese', 'Asiago Cheese', 'Hot Sauce', 'Mustard'],
     };
     
     let ingredientArrVeg = []
