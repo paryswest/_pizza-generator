@@ -1,12 +1,95 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body{
+  height: 900px;
   font-family: 'Questrial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   /* I can't seem to get the background image going; maybe there are better ideas than this */
   background: url(images/pizzaoven.jpg) no-repeat center center fixed;
 }
+.header-container {
+  height: 60px;
+  width: 90vw;
+  background-color: dodgerblue;
+  box-shadow: 12px 11px rgb(236, 166, 3);
+}
 
+.subheader-container {
+  margin-top: 20px;
+  height: 40px;
+  width: 40vw;
+  background-color: gold;
+  padding-bottom: 15px;
+  box-shadow: 12px 12px pink;
+}
+
+.header-container, .subheader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 2s ease-in-out;
+  
+}
+
+.super-container {
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 55px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 5px black;
+}
 h1{
-  color: forestgreen;
+  transition: 3s ease-in-out;
+}
+
+main {
+  height: 500px;
+}
+
+.main-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-transform: capitalize;
+
+  padding-top: 5px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+
+  text-shadow: none;
+  animation-name: main;
+  animation-duration: 60s;
+
+  font-size: 30px
+}
+
+/* @keyframes main {
+  from {text-shadow: none}
+  to {text-shadow: 2px 3px rgb(255, 255, 255)}
+} */
+
+@keyframes main {
+  0%   {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  10%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  20%  {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  30%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  40%  {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  50%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  60%  {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  70%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  80%  {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  90%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  100% {text-shadow: 2px 3px 3px rgb(255, 0, 0);}
 }
 
 h2{
@@ -16,3 +99,33 @@ h2{
 li{
   list-style-type: none;
 }
+
+.height-opener {
+  padding-top: 20px;
+  height: 75px;
+}
+
+.height-opener-two {
+  height: 300px;
+}
+
+.height-opener-three {
+  height: 250px;
+}
+
+.height-opener-three h2{
+  padding-top: 10px;
+}
+
+.top-body-container {
+  padding-top: 20px;
+}
+
+.ingredientOne, .ingredientTwo, .ingredientThree {
+  padding: 20px;
+}
+
+.height-opener-two h2 {
+  padding: 20px;
+}
+
