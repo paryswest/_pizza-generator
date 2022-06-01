@@ -50,11 +50,18 @@ const server = http.createServer((req, res) => {
   } //else if
   else if (page == '/css/style.css') {
     fs.readFile('css/style.css', function (err, data) {
-      // can this fix our css error?? /julien
-      // res.writeHead(200, { 'Content-Type': 'text/css' });
+      // This actually fixed our css problem 
+      res.writeHead(200, { 'Content-Type': 'text/css' });
       res.write(data);
       res.end();
     });
+  }else if (page == '/images/pizzaoven.jpg') {
+      fs.readFile('images/pizzaoven.jpg', function (err, data) {
+        // This actually fixed our css problem 
+        res.writeHead(200, { 'Content-Type': 'image/jpg' });
+        res.write(data);
+        res.end();
+      });
   } else if (page == '/js/main.js') {
     fs.readFile('js/main.js', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/javascript' });
@@ -82,29 +89,29 @@ function generateIngredients(ingredientNum) {
   const newIngredientObj = {}
   if(ingredientNum > 0){
     const objToJson = {
-      veggies: ['Mushrooms', 'Spinach', 'Onions', 'Olives'],
-      meat: ['Pepperoni', 'Mystery Meat', 'Chicken'],
-      wildcardIngredient: ['Pineapples', 'Anchovies', 'Olives'],
+      veggies: ['Mushrooms', 'Spinach', 'Onions', 'Olives', 'Banana Peppers', 'Mushrooms', 'Green Peppers', 'Asparagus'],
+      meat: ['Pepperoni', 'Mystery Meat', 'Chicken', 'Ham', 'Beef', 'Salami', 'Bacon', 'Turkey Bacon'],
+      wildcardIngredient: ['Pineapples', 'Anchovies', 'Olives', 'Cheddar Cheese', 'Feta Cheese', 'Asiago Cheese', 'Hot Sauce', 'Mustard'],
     };
     
-    // for (ingredient in objToJson){
-    //   ingredientArr.push(ingredient[oneToThree])
-    // }
     let ingredientArrVeg = []
     let ingredientArrMeat = []
+    let ingredientArrWildcard = []
     for(i=0;i<ingredientNum;i++){
 
-      let oneToThree = Math.floor(Math.random()*3) // generates random number 0,1,2
+      let oneToThree = Math.floor(Math.random()*8) // generates random number 0,1,2
       
       let ingredientVeg = objToJson.veggies[oneToThree]
       let ingredientMeat = objToJson.meat[oneToThree]
-
+      let ingredientWildcard = objToJson.wildcardIngredient[oneToThree]
       ingredientArrVeg.push(ingredientVeg)
       ingredientArrMeat.push(ingredientMeat)
+      ingredientArrWildcard.push(ingredientWildcard)
 
     }
     newIngredientObj.veggies = ingredientArrVeg
     newIngredientObj.meat = ingredientArrMeat
+    newIngredientObj.wildcardIngredient = ingredientArrWildcard
     //let newObjToJson = 
     return newIngredientObj
   }
