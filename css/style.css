@@ -3,19 +3,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body{
-  height: 900px;
   font-family: 'Questrial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  /* Fixed the image path, was missing ../ */
-  /* background: url(../images/pizzaoven.jpg) no-repeat center center fixed; */
 }
+
+body {
+  height: 900px;
+  /* Fixed the image path, was missing ../ */
+  background: rgba(0, 0, 0, 0.4) url(../images/pizzaflour.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
 .header-container {
-  height: 60px;
+  height: 70px;
   width: 90vw;
-  background-color: dodgerblue;
+  background-color: rgb(2, 55, 32);
   box-shadow: 12px 11px rgb(236, 166, 3);
 }
 
@@ -25,7 +29,7 @@ body{
   width: 40vw;
   background-color: gold;
   padding-bottom: 15px;
-  box-shadow: 12px 12px pink;
+  box-shadow: 12px 12px rgba(255, 0, 0, 1);
 }
 
 .header-container, .subheader-container {
@@ -93,7 +97,9 @@ main {
 }
 
 h2{
-  color: navy
+  color: white;
+  text-shadow: 3px 4px 5px rgb(0, 0, 0);
+  font-size: 30px;
 }
 
 li{
@@ -102,11 +108,11 @@ li{
 
 .height-opener {
   padding-top: 20px;
-  height: 75px;
+  height: 100px;
 }
 
 .height-opener-two {
-  height: 300px;
+  height: 200px;
 }
 
 .height-opener-three {
@@ -129,12 +135,60 @@ li{
   padding: 20px;
 }
 
+p {
+  padding-bottom: 20px;
+}
+
+p, label {
+  color: rgb(5, 244, 232);
+  font-size: 22px;
+  text-shadow: 3px 4px 4px rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+#ingredientOne, #ingredientTwo {
+  color: rgb(253, 249, 4);
+  text-shadow: 3px 4px 4px rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.veggies {
+  color: rgb(0, 128, 0);
+  text-shadow: 3px 4px rgb(247, 114, 5);
+}
+
+.meats {
+  color: rgb(95, 48, 48);
+  text-shadow: 3px 4px rgb(247, 114, 5);
+  font-weight: 900;
+}
+
+.your-pizza {
+  color: rgb(6, 220, 248);
+}
+
+#clickMe {
+  height: 35px;
+  padding: 0 10px;
+  border-radius: 4px;
+  background-color: green;
+}
+
+.button-cont {
+  padding-top: 5px;
+}
+
 /* Pizza Image, force pngs to stack, creating one pizza */
+#pizza-container {
+  height: 410px;
+}
+
 #pizza-image {
   position: relative;
 }
 
 #pizza-image img {
+  height: 375px;
   position: absolute;
   top: 0;
   transform: translateX(-50%);

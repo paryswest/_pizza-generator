@@ -12,38 +12,40 @@
 	  <header>
 		<section class="super-container">
 			<div class="header-container">  
-				<h1>Never Too Hungry For Pizza</h1>
+				<h1>🍕 Never Too Hungry For Pizza! 🍕</h1>
 			</div>
 		</section>
 
 		<section class="super-container">
 			<div class="subheader-container">
-				<p class="main-para">A free pizza topping randomizer</p>
+				<p class="main-para">A free pizza topping randomizer!</p>
 			</div>
 		</section>
 	  </header>
 
 	  <section class="height-opener">
 		<div class="top-body-container">
-			<h2 class="subheading">Topping Randomizer Instructions</h2>
+			<h2 class="subheading">Topping Randomizer Instructions:</h2>
 			<p>Tell us how many toppings you want on your pizza and then click 'Decide for Me!'.</p>
 		</div>
 	  </section>
 	  <main>
 		<section class="height-opener">
 			<h2>The Randomizer:</h2>
-			<label for="meatCount">Amount of Meat Ingredients</label>
+			<label for="meatCount">Amount of Meat Ingredients: </label>
 			<input id="meatCount" type="number" min="0" max="8" value="0" required placeholder="">
-			<label for="veggiesCount">Amount of Vegatable Ingredients</label> 
+			<label for="veggiesCount">Amount of Vegetable Ingredients:</label> 
 			<input id="veggiesCount" type="number" min="0" max="8" value="0" required placeholder=""><br>
-			<button id="clickMe" type="button" name="button">Decide for Me!</button>
+      <div class="button-cont">
+			  <button id="clickMe" type="button" name="button">Decide for Me!</button>
+      </div>
 		</section>
 		<section class="height-opener-two">
 			<h3 id="personName"></h3>
-			<h2>VEGGIES</h2>
-    		<h3 id="ingredientOne">topping </h3>
-    		<h2>MEATS</h2>
-			<h3 id="ingredientTwo">ingredient2 </h3>
+			<h2 class="veggies">VEGGIES</h2>
+    		<h3 id="ingredientOne">*Topping appears here* </h3>
+    		<h2 class="meats">MEATS</h2>
+			<h3 id="ingredientTwo">*Meat appears here* </h3>
     		<!-- <h2>EXTRAS</h2>
 			<h3 id="ingredientThree">ingredietnt3 </h3> -->
 		</section>
@@ -58,7 +60,7 @@
 		</section> -->
 
 		<section id="pizza-container">
-			<h2>Your pizza might look something like this!</h2>
+			<h2 class="your-pizza">Your pizza might look something like this!</h2>
 			<div id="pizza-image"></div>
 		</section>
 	</main>

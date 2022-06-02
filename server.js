@@ -33,8 +33,8 @@ const server = http.createServer((req, res) => {
     case '/images/pizzaoven.jpg':
       readWrite(res, 'images/pizzaoven.jpg', { 'Content-Type': 'image/jpg' })
       break
-    case '/images/pizzabackground.jpg':
-      readWrite(res, 'images/pizzabackground.jpg', { 'Content-Type': 'image/jpg' })
+    case '/images/pizzaflour.jpg':
+      readWrite(res, 'images/pizzaflour.jpg', { 'Content-Type': 'image/jpg' })
       break
     case '/images/ingredients/pizza-base.png':
       readWrite(res, 'images/ingredients/pizza-base.png', { 'Content-Type': 'image/png' })
