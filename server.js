@@ -117,7 +117,7 @@ function readWrite(res, file, contentType) {
 
 function generateIngredients(meatCount, veggiesCount) {
   // Available meats and veggies
-  const PIZZA_MEAT = ['pepperoni', 'sausage', 'bacon', 'meatball', 'ham', 'chicken', 'beef', 'pork']
+  const PIZZA_MEAT = ['Pepperoni', 'Sausage', 'Bacon', 'Meatball', 'Ham', 'Chicken', 'Beef', 'Pork']
   const PIZZA_VEGGIES = ['mushrooms', 'onions', 'pineapple', 'black olives', 'bell peppers', 'banana peppers', 'jalapeno', 'tomato']
 
   // Converts to Number
