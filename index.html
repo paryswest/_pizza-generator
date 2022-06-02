@@ -32,7 +32,10 @@
 	  <main>
 		<section class="height-opener">
 			<h2>The Randomizer:</h2>
-			<input id="ingredientNums" type="text" name="" placeholder="Enter Amount of Ingredients">
+			<label for="meatCount">Amount of Meat Ingredients</label>
+			<input id="meatCount" type="number" min="0" max="8" value="0" required placeholder="">
+			<label for="veggiesCount">Amount of Vegatable Ingredients</label> 
+			<input id="veggiesCount" type="number" min="0" max="8" value="0" required placeholder=""><br>
 			<button id="clickMe" type="button" name="button">Decide for Me!</button>
 		</section>
 		<section class="height-opener-two">
@@ -41,10 +44,10 @@
     		<h3 id="ingredientOne">topping </h3>
     		<h2>MEATS</h2>
 			<h3 id="ingredientTwo">ingredient2 </h3>
-    		<h2>EXTRAS</h2>
-			<h3 id="ingredientThree">ingredietnt3 </h3>
+    		<!-- <h2>EXTRAS</h2>
+			<h3 id="ingredientThree">ingredietnt3 </h3> -->
 		</section>
-		<section class="height-opener-three">
+		<!-- <section class="height-opener-three">
 			<h2>Pizzas</h2>
 			<ul>
 				<li><h2>Randomized Pizza</h2></li>
@@ -52,6 +55,11 @@
 				<li id="pizzaOneVeggie"></li>
 				<li id="pizzaOneExtra"></li>
 			</ul>
+		</section> -->
+
+		<section id="pizza-container">
+			<h2>Your pizza might look something like this!</h2>
+			<div id="pizza-image"></div>
 		</section>
 	</main>
 	     
