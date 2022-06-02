@@ -1,7 +1,195 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Questrial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+body {
+  height: 900px;
+  /* Fixed the image path, was missing ../ */
+  background: rgba(0, 0, 0, 0.4) url(../images/pizzaflour.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+.header-container {
+  height: 70px;
+  width: 90vw;
+  background-color: rgb(2, 55, 32);
+  box-shadow: 12px 11px rgb(236, 166, 3);
+}
+
+.subheader-container {
+  margin-top: 20px;
+  height: 40px;
+  width: 40vw;
+  background-color: gold;
+  padding-bottom: 15px;
+  box-shadow: 12px 12px rgba(255, 0, 0, 1);
+}
+
+.header-container, .subheader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 2s ease-in-out;
+  
+}
+
+.super-container {
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 55px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 5px black;
+}
 h1{
-  color: forestgreen;
+  transition: 3s ease-in-out;
+}
+
+main {
+  height: 500px;
+}
+
+.main-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-transform: capitalize;
+
+  padding-top: 5px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+
+  text-shadow: none;
+  animation-name: main;
+  animation-duration: 60s;
+
+  font-size: 30px
+}
+
+/* @keyframes main {
+  from {text-shadow: none}
+  to {text-shadow: 2px 3px rgb(255, 255, 255)}
+} */
+
+@keyframes main {
+  0%   {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  10%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  20%  {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  30%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  40%  {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  50%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  60%  {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  70%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  80%  {text-shadow: 2px 3px 3px rgb(255, 0, 0); }
+  90%  {text-shadow: 2px 3px 3px rgb(0, 255, 132); }
+  100% {text-shadow: 2px 3px 3px rgb(255, 0, 0);}
 }
 
 h2{
-  color: navy
+  color: white;
+  text-shadow: 3px 4px 5px rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.height-opener {
+  padding-top: 20px;
+  height: 100px;
+}
+
+.height-opener-two {
+  height: 200px;
+}
+
+.height-opener-three {
+  height: 250px;
+}
+
+.height-opener-three h2{
+  padding-top: 10px;
+}
+
+.top-body-container {
+  padding-top: 20px;
+}
+
+.ingredientOne, .ingredientTwo, .ingredientThree {
+  padding: 20px;
+}
+
+.height-opener-two h2 {
+  padding: 20px;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+p, label {
+  color: rgb(5, 244, 232);
+  font-size: 22px;
+  text-shadow: 3px 4px 4px rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+#ingredientOne, #ingredientTwo {
+  color: rgb(253, 249, 4);
+  text-shadow: 3px 4px 4px rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.veggies {
+  color: rgb(0, 128, 0);
+  text-shadow: 3px 4px rgb(247, 114, 5);
+}
+
+.meats {
+  color: rgb(95, 48, 48);
+  text-shadow: 3px 4px rgb(247, 114, 5);
+  font-weight: 900;
+}
+
+.your-pizza {
+  color: rgb(6, 220, 248);
+}
+
+#clickMe {
+  height: 35px;
+  padding: 0 10px;
+  border-radius: 4px;
+  background-color: green;
+}
+
+.button-cont {
+  padding-top: 5px;
+}
+
+/* Pizza Image, force pngs to stack, creating one pizza */
+#pizza-container {
+  height: 410px;
+}
+
+#pizza-image {
+  position: relative;
+}
+
+#pizza-image img {
+  height: 375px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
 }
