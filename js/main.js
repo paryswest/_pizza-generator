@@ -11,7 +11,7 @@ async function makeReq(){
   document.querySelector("#ingredientOne").textContent = data.veggies.map( x => x[0].toUpperCase() + x.slice(1) ).join(', ')
   document.querySelector("#ingredientTwo").textContent = data.meat.map( x => x[0].toUpperCase() + x.slice(1) ).join(', ')
   
-  const pizzaImage = document.querySelector('#pizza-image') 
+  const pizzaImage = document.querySelector('#pizza-image')
   // reset image on each run
   pizzaImage.innerHTML = ''
 
