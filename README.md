@@ -21,7 +21,7 @@ A full stack application using a Node server to retrieve the information that is
 
 ## Lessons Learned:
 
-Quite a few things were learned in this project. For one, we learned that Github version control was super important for handling forks from each contributor and we learned shortcuts insofar as how to use Git version control. Secondly, we learned the reason WHY express is a neccessity, as this was quite the challenge to complete with just bare-bones node.js. Finally, we learned about the importance of communicating with each other effectively, especially when changes were being made. We all listened to each other's inputs and reasonings, and we provided feedback whnever a member of the group needed it. 
+Quite a few things were learned in this project. For one, we learned that Github version control was super important for handling forks from each contributor and we learned shortcuts insofar as how to use Git version control more effectively overall. Secondly, we learned the reason WHY express is a neccessity, as this was quite the challenge to complete with just bare-bones node.js. Finally, we learned about the importance of communicating with each other effectively, especially when changes were being made. We all listened to each other's inputs and reasonings, and we provided feedback whenever a member of the group needed it. 
 
 ## Contributors:
 - Parys West: Twitter: @IntellectJunkie LinkedIn: www.linkedin.com/in/paryswest Portfolio: www.therealparyswest.com
