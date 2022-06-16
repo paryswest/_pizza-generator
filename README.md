@@ -1,4 +1,4 @@
-# Too Hungry To Decide
+# Never Too Hungry for Pizza
 A random topping generator for pizza lovers.
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
