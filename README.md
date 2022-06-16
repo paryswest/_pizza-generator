@@ -4,7 +4,7 @@ A random topping generator for all pizza lovers alike! If you love pizza, this a
 **Link to project:** Coming soon!
 
 <div align="center">
-<img src="https://github.com/paryswest/_pizza-generator/blob/67fabc58ceff20fbba07b553a9cb36bd0af43e7f/Pizzarandomizer.gif" height:"500px" width="100%" >
+<img src="https://github.com/paryswest/_pizza-generator/blob/e36e853cd3a0f587332faf84a4c5062acc067955/Pizzarandomizer.gif" height:"500px" width="100%" >
 </div>  
 
 ## How It's Made:
