@@ -1,7 +1,7 @@
 # Too Hungry to Decide
 A random topping generator for all pizza lovers alike! If you love pizza, this app is surely something that you'll....wanna sink your teeth in to. Vegetarian Friendly! 🥬
 
-**Link to project:** Coming soon!
+**Link to project:** https://pizza-generator-api.herokuapp.com/
 
 <div align="center">
 <img src="https://github.com/paryswest/_pizza-generator/blob/e36e853cd3a0f587332faf84a4c5062acc067955/Pizzarandomizer.gif" height:"500px" width="100%" >
