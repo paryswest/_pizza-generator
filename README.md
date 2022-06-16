@@ -26,7 +26,7 @@ Quite a few things were learned in this project. For one, we learned that Github
 ## Contributors:
 - Parys West: Twitter: @IntellectJunkie LinkedIn: www.linkedin.com/in/paryswest Portfolio: www.therealparyswest.com
 - Julien Mellon: Twitter: LinkedIn: https://www.linkedin.com/in/julienmellon Portfolio: 
-- Gabriel Rodriguez: Twitter: Linkedin: https://www.linkedin.com/in/gabrieldevelops Portfolio: 
+- Gabriel Rodriguez: Twitter: @@GabrielDevelops Linkedin: https://www.linkedin.com/in/gabrieldevelops Portfolio: https://gabriel-dev.netlify.app/
 - Nimesh Jagota: Twitter: LinkedIn:https://www.linkedin.com/in/njagota/ Portfolio: 
 - Keith Gregory: Twitter: LinkedIn:https://www.linkedin.com/in/realkeithgregory Portfolio: 
 
