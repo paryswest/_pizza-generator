@@ -1,5 +1,5 @@
 # Too Hungry to Decide
-A random topping generator for all pizza lovers alike! If you love pizza, this app is surely something that you'll....wanna sink your teeth in to. 
+A random topping generator for all pizza lovers alike! If you love pizza, this app is surely something that you'll....wanna sink your teeth in to. Vegetarian Friendly! 🥬
 
 **Link to project:** Coming soon!
 
@@ -11,7 +11,7 @@ A random topping generator for all pizza lovers alike! If you love pizza, this a
 
 **Tech used:** HTML, CSS, Figma, JavaScript, Node.js (Express.js coming soon!)
 
-A full stack application using a Node server to retrieve the information that is then displayed on the UI which was styled with basic HTML and CSS. The challenge was to create a server bare-bones (no frameworks or anything of that nature), so this is how the project was created. We implemented the base requirements in order for this application to run server-side (http, fs, ur, querystring) and even figlet (for the default 404 page). The server was created using the .createServer method and inside, since there were so many toppings to iterate through, a switch statement was used to cover the various amount of toppings (created in Figma) that were to be shown on the actual pizza. A function containing the names of those toppings were put in to arrays and following that, depending on the amount that is entered on the UI, the number of toppings will appear. This operation was handled with a combination of "if-else" and "while" statements. 
+A full stack application using a Node server to retrieve the information that is then displayed on the UI which was styled with basic HTML and CSS. The challenge was to create a server bare-bones (no frameworks or anything of that nature), so this is how the project was created. We implemented the base requirements in order for this application to run server-side (http, fs, ur, querystring) and even figlet (for the default 404 page). The server was created using the .createServer method and inside, since there were so many toppings to iterate through, a switch statement was used to cover the various amount of toppings (created in Figma) that were to be shown on the actual pizza. A function containing the names of the specified toppings were put in to arrays and following that, depending on the amount of toppings that are entered on the UI, that number of toppings will appear. This operation was handled with a combination of "if-else" and "while" statements. Improvements can definitely be made in this area, which will be done later on. 
 
 ## Optimizations
 
