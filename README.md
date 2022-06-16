@@ -3,7 +3,9 @@ A random topping generator for pizza lovers.
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![Too Hungry to Decide Topping Randomizer](http://placecorgi.com/1200/650)
+<div align="center">
+<img src="https://github.com/paryswest/_pizza-generator/blob/67fabc58ceff20fbba07b553a9cb36bd0af43e7f/Pizzarandomizer.gif" height:"500px" width="100%" >
+</div>  
 
 ## How It's Made:
 
