@@ -28,6 +28,6 @@ Quite a few things were learned in this project. For one, we learned that Github
 - Julien Mellon: Twitter: LinkedIn: https://www.linkedin.com/in/julienmellon Portfolio: 
 - Gabriel Rodriguez: Twitter: @GabrielDevelops Linkedin: https://www.linkedin.com/in/gabrieldevelops Portfolio: https://gabriel-dev.netlify.app/
 - Nimesh Jagota: Twitter: LinkedIn:https://www.linkedin.com/in/njagota/ Portfolio: 
-- Keith Gregory: Twitter: LinkedIn:https://www.linkedin.com/in/realkeithgregory Portfolio: 
+- Keith Gregory: Twitter: @DevKeithGregory LinkedIn:https://www.linkedin.com/in/realkeithgregory Portfolio: https://keithgregory.netlify.app/
 
 
