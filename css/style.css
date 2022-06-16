@@ -154,7 +154,7 @@ p, label {
   font-weight: 500;
 }
 
-#ingredientOne, #ingredientTwo {
+#ingredientOne, #ingredientTwo, footer ul {
   color: rgb(71, 250, 0);
   text-shadow: 3px 4px 4px rgb(0, 0, 0);
   font-size: 22px;
@@ -220,4 +220,15 @@ p, label {
   position: absolute;
   top: 0;
   transform: translateX(-50%);
+}
+
+/* Footer */
+
+footer ul li {
+  display: inline-block;
+  font-weight: 700;
+}
+
+footer ul li a {
+  color: white;
 }
