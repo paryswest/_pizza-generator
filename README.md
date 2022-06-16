@@ -1,5 +1,5 @@
 # Never Too Hungry for Pizza
-A random topping generator for pizza lovers.
+A random topping generator for all pizza lovers alike! If you love pizza, this app is surely something that you'll....wanna sink your teeth in to. 
 
 **Link to project:** Coming soon!
 
