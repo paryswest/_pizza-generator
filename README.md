@@ -1,6 +1,8 @@
 # Too Hungry to Decide
 A random topping generator for all pizza lovers alike! If you love pizza, this app is surely something that you'll....wanna sink your teeth in to. Vegetarian Friendly! 🥬
 
+**Please note that as of right now, this application is only desktop friendly. Responsiveness will come later on**
+
 **Link to project:** Coming soon!
 
 <div align="center">
@@ -18,6 +20,7 @@ A full stack application using a Node server to retrieve the information that is
 - We plan to refactor the back end using Express.js for readability and efficiency.
 - Style and design may be changed just for better visual appeal.
 - Could possibly be revised in to a React project since this project is more involved. 
+- Make it responsive as it is only compatible with browsers at the moment, not mobile devices and smaller screens. 
 
 ## Lessons Learned:
 
