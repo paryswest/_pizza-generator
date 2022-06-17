@@ -38,15 +38,15 @@ Quite a few things were learned in this project. For one, we learned that Github
 </li>
 <li>
   Julien Mellon:
-<!--   <a href="">
+   <a href="https://twitter.com/julienmellon">
     <img src="https://img.shields.io/static/v1?label=|&message=TWITTER&color=23555f&style=plastic&logo=twitter&logo-color=white"/>
-  </a> -->
+  </a>
   <a href="https://www.linkedin.com/in/julienmellon">
     <img src="https://img.shields.io/static/v1?label=|&message=LINKEDIN&color=23555f&style=plastic&logo=linkedin&logo-color=white"/>
   </a>
-<!--   <a href="">
+  <a href="https://julienmellon.netlify.app/">
     <img src="https://img.shields.io/static/v1?label=|&message=PORTFOLIO&color=23555f&style=plastic&logo=react&logo-color=white"/>
-  </a> -->
+  </a>
 </li>
 <li>
   Gabriel Rodriguez:
