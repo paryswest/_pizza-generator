@@ -24,10 +24,63 @@ A full stack application using a Node server to retrieve the information that is
 Quite a few things were learned in this project. For one, we learned that Github version control was super important for handling forks from each contributor and we learned shortcuts insofar as how to use Git version control more effectively overall. Secondly, we learned the reason WHY express is a neccessity, as this was quite the challenge to complete with just bare-bones node.js. Finally, we learned about the importance of communicating with each other effectively, especially when changes were being made. We all listened to each other's inputs and reasonings, and we provided feedback whenever a member of the group needed it. 
 
 ## Contributors:
-- Parys West: Twitter: @IntellectJunkie LinkedIn: www.linkedin.com/in/paryswest Portfolio: www.therealparyswest.com
-- Julien Mellon: Twitter: LinkedIn: https://www.linkedin.com/in/julienmellon Portfolio: 
-- Gabriel Rodriguez: Twitter: @GabrielDevelops Linkedin: https://www.linkedin.com/in/gabrieldevelops Portfolio: https://gabriel-dev.netlify.app/
-- Nimesh Jagota: Twitter: LinkedIn:https://www.linkedin.com/in/njagota/ Portfolio: 
-- Keith Gregory: Twitter: @DevKeithGregory LinkedIn:https://www.linkedin.com/in/realkeithgregory Portfolio: https://keithgregory.netlify.app/
-
-
+<li>
+  Parys West: 
+  <a href="https://mobile.twitter.com/intellectjunkie">
+    <img src="https://img.shields.io/static/v1?label=|&message=TWITTER&color=23555f&style=plastic&logo=twitter&logo-color=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/paryswest/">
+    <img src="https://img.shields.io/static/v1?label=|&message=LINKEDIN&color=23555f&style=plastic&logo=linkedin&logo-color=white"/>
+  </a>
+  <a href="https://www.therealparyswest.com">
+    <img src="https://img.shields.io/static/v1?label=|&message=PORTFOLIO&color=23555f&style=plastic&logo=react&logo-color=white"/>
+  </a>
+</li>
+<li>
+  Julien Mellon:
+<!--   <a href="">
+    <img src="https://img.shields.io/static/v1?label=|&message=TWITTER&color=23555f&style=plastic&logo=twitter&logo-color=white"/>
+  </a> -->
+  <a href="https://www.linkedin.com/in/julienmellon">
+    <img src="https://img.shields.io/static/v1?label=|&message=LINKEDIN&color=23555f&style=plastic&logo=linkedin&logo-color=white"/>
+  </a>
+<!--   <a href="">
+    <img src="https://img.shields.io/static/v1?label=|&message=PORTFOLIO&color=23555f&style=plastic&logo=react&logo-color=white"/>
+  </a> -->
+</li>
+<li>
+  Gabriel Rodriguez:
+  <a href="https://twitter.com/GabrielDevelops">
+    <img src="https://img.shields.io/static/v1?label=|&message=TWITTER&color=23555f&style=plastic&logo=twitter&logo-color=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/gabrieldevelops">
+    <img src="https://img.shields.io/static/v1?label=|&message=LINKEDIN&color=23555f&style=plastic&logo=linkedin&logo-color=white"/>
+  </a>
+  <a href="https://gabriel-dev.netlify.app/">
+    <img src="https://img.shields.io/static/v1?label=|&message=PORTFOLIO&color=23555f&style=plastic&logo=react&logo-color=white"/>
+  </a>
+</li>
+<li>
+  Nimesh Jagota:
+<!--   <a href="">
+    <img src="https://img.shields.io/static/v1?label=|&message=TWITTER&color=23555f&style=plastic&logo=twitter&logo-color=white"/>
+  </a> -->
+  <a href="https://www.linkedin.com/in/njagota/">
+    <img src="https://img.shields.io/static/v1?label=|&message=LINKEDIN&color=23555f&style=plastic&logo=linkedin&logo-color=white"/>
+  </a>
+<!--   <a href="">
+    <img src="https://img.shields.io/static/v1?label=|&message=PORTFOLIO&color=23555f&style=plastic&logo=react&logo-color=white"/>
+  </a> -->
+</li>
+<li>
+  Keith Gregory:
+  <a href="https://twitter.com/DevKeithGregory">
+    <img src="https://img.shields.io/static/v1?label=|&message=TWITTER&color=23555f&style=plastic&logo=twitter&logo-color=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/realkeithgregory">
+    <img src="https://img.shields.io/static/v1?label=|&message=LINKEDIN&color=23555f&style=plastic&logo=linkedin&logo-color=white"/>
+  </a>
+  <a href="https://keithgregory.netlify.app/">
+    <img src="https://img.shields.io/static/v1?label=|&message=PORTFOLIO&color=23555f&style=plastic&logo=react&logo-color=white"/>
+  </a>
+</li>
