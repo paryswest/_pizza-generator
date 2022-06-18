@@ -3,7 +3,7 @@ A random topping generator for all pizza lovers alike! If you love pizza, this a
 
 
 **Link to project:** https://pizza-generator-api.herokuapp.com/
-**Please note that as of right now, this application is only desktop friendly. Responsiveness will come later on**
+**Please note that as of right now, this application is only desktop friendly, but we are working to make this application mobile responsive!**
 
 
 <div align="center">
